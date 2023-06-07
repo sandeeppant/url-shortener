@@ -1,0 +1,16 @@
+URL Shortener
+1. Verify Valid URL
+2. Verify Invalid URL
+3. Verify that if the shortened URLs have an expiration feature and validate that expired URLs are no longer accessible
+4. Verify that the service does not generate duplicate shortened URLs for the same long URL
+5. Verify service performance by generating large number of shortened URLs by measuring response time
+6. Test Case for URL Analytics like no of clicks
+7. Verify unauthorized access to service
+
+Cat Fact REST API
+1. Check for total number of records
+2. Check if next_page_url is able to retrieve the data
+3. Check if page=-1 return data from 1st page
+4. Check if page>last page return no data
+5. Check if data from fact api is present in facts api
+6. Check length of factname
