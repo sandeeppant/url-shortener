@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 import com.connectid.BitlyAPI;
 import com.connectid.utils.ReadCSV;
 
-public class URLShortenerAPTest {
-	private static final Logger logger = LogManager.getLogger(URLShortenerAPTest.class);
+public class URLShortenerAPITest {
+	private static final Logger logger = LogManager.getLogger(URLShortenerAPITest.class);
 
 	@Test
 	public void verifyValidShorterURL() throws IOException {
